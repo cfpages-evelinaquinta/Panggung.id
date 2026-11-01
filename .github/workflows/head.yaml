@@ -1,6 +1,9 @@
 name: Insert .head Content v3
 
 on:
+  push:
+    paths:
+      - .head
   workflow_dispatch:
 
 permissions:
